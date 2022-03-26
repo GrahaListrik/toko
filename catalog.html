@@ -44,9 +44,9 @@
                 <div class="navbar-header">
                     <h5 class = "text-light">Kabel</h5>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <a class="nav-item nav-link text-info" href="#">TV </a>
-                        <a class="nav-item nav-link text-info" href="#">Olor</a>
-                        <a class="nav-item nav-link text-info" href="#">Lain</a>
+                        <a class="nav-item nav-link text-info" onclick ="belumAda()" href="#">TV </a>
+                        <a class="nav-item nav-link text-info" onclick = "belumAda()" href="#">Olor</a>
+                        <a class="nav-item nav-link text-info" onclick = "belumAda()"href="#">Lain</a>
                     </button>
                 </div>
             </div>
@@ -137,8 +137,9 @@
 </body>
 <script>
     var x = "Fitur Search Masih dibuat, NavBar juga"
+    var message = "Catalog masih dibuat"
     function belumAda(){
-        alert(x)
+        alert(message)
     }
 </script>
 </html>
